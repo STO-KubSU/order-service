@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package order;
+
+option go_package = "github.com/STO-KubSU/order-service";
+
+service OrderService {
+  rpc GetOrder (GetOrderRequest) returns (GetOrderResponse);
+}
+
+message GetOrderRequest {
+  string id = 1;
+}
+
+message GetOrderResponse {
+  string id = 1;
+  string user_id = 2;
+  string item = 3;
+}
