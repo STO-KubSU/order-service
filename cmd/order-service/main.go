@@ -5,7 +5,7 @@ import (
 	"net"
 
 	"github.com/STO-KubSU/order-service/internal/service"
-	pb "github.com/STO-KubSU/order-service/proto"
+	pb "github.com/STO-KubSU/orderpb"
 	userpb "github.com/STO-KubSU/userpb"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"

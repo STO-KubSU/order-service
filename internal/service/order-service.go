@@ -4,7 +4,7 @@ import (
 	"context"
 	"log"
 
-	pb "github.com/STO-KubSU/order-service/proto"
+	pb "github.com/STO-KubSU/orderpb"
 	userpb "github.com/STO-KubSU/userpb"
 )
 
